@@ -21,6 +21,7 @@
 
     <properties>
         <java.version>1.8</java.version>
+        <hibernate.version>5.0.12.Final</hibernate.version>
     </properties>
 
     <dependencies>
@@ -34,6 +35,26 @@
             <artifactId>spring-boot-starter-test</artifactId>
             <scope>test</scope>
         </dependency>
+
+        <!--使用注解简化代码开发，例如开启日志，关闭流，get/set等等-->
+        <dependency>
+            <groupId>org.projectlombok</groupId>
+            <artifactId>lombok</artifactId>
+        </dependency>
+
+        <!-- https://mvnrepository.com/artifact/mysql/mysql-connector-java -->
+        <dependency>
+            <groupId>mysql</groupId>
+            <artifactId>mysql-connector-java</artifactId>
+            <version>8.0.16</version>
+        </dependency>
+        <!-- hibernate 降级为 5.0.12.Final -->
+        <dependency>
+            <groupId>org.hibernate</groupId>
+            <artifactId>hibernate-core</artifactId>
+            <version>${hibernate.version}</version>
+        </dependency>
+
     </dependencies>
 
     <build>

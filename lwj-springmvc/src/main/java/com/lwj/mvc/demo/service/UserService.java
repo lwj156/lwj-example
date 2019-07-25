@@ -1,4 +1,4 @@
-package com.lwj.mvc.service;
+package com.lwj.mvc.demo.service;
 
 /**
  * @author Linwj

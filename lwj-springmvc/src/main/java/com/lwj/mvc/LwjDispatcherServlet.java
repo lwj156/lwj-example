@@ -72,8 +72,10 @@ public class LwjDispatcherServlet extends HttpServlet {
                 if (clazz.isAnnotationPresent(LwjService.class)){
                    LwjService service= clazz.getAnnotation(LwjService.class);
                    if (StringUtils.isEmpty(service.value())){
-
                    }
+                    for (Class<?> i : clazz.getInterfaces()) {
+                        String name=i.getName();
+                    }
                 }
 
             }
@@ -89,16 +91,16 @@ public class LwjDispatcherServlet extends HttpServlet {
     }
 
     private void doScanner(String packageName) {
-        if (!StringUtils.isEmpty(packageName)){return;}
+        if (StringUtils.isEmpty(packageName)){return;}
         URL resource = this.getClass().getClassLoader().getResource(packageName.replace(".", "/"));
         File file=new File(resource.getFile());
         //packageName为包，一般不会配置到类名上
         for (File listFile : file.listFiles()) {
             if (listFile.isDirectory()){
-                doScanner(packageName+"."+file.getName());
+                doScanner(packageName+"."+listFile.getName());
             }else {
-                if (!file.getName().endsWith(".class")){continue;}
-                this.classNames.add(packageName+"."+file.getName().replace(".class",""));
+                if (!listFile.getName().endsWith(".class")){continue;}
+                this.classNames.add(packageName+"."+listFile.getName().replace(".class",""));
             }
         }
     }

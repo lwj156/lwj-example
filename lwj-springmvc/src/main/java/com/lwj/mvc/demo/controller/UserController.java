@@ -1,8 +1,7 @@
-package com.lwj.mvc.controller;
+package com.lwj.mvc.demo.controller;
 
 import com.lwj.mvc.annotation.*;
-import com.lwj.mvc.service.UserService;
-import org.springframework.web.bind.annotation.RequestParam;
+import com.lwj.mvc.demo.service.UserService;
 
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
