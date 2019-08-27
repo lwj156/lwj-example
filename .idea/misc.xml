@@ -10,6 +10,8 @@
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/lwj-patterns/pom.xml" />
         <option value="$PROJECT_DIR$/lwj-jdbctemplate/pom.xml" />
+        <option value="$PROJECT_DIR$/lwj-mybatis/pom.xml" />
+        <option value="$PROJECT_DIR$/lwj-lock/pom.xml" />
       </list>
     </option>
   </component>

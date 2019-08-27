@@ -60,6 +60,8 @@
           <element id="library" level="project" name="Maven: org.jboss:jandex:2.0.0.Final" />
           <element id="library" level="project" name="Maven: dom4j:dom4j:1.6.1" />
           <element id="library" level="project" name="Maven: org.hibernate.common:hibernate-commons-annotations:5.0.1.Final" />
+          <element id="library" level="project" name="Maven: commons-dbutils:commons-dbutils:1.6" />
+          <element id="library" level="project" name="Maven: org.mybatis:mybatis:3.5.0" />
         </element>
       </element>
       <element id="directory" name="META-INF">
