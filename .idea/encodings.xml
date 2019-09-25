@@ -8,5 +8,7 @@
     <file url="file://$PROJECT_DIR$/lwj-mybatis" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/lwj-patterns" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/lwj-springmvc" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/lwj-test" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/lwj-zookeeper" charset="UTF-8" />
   </component>
 </project>
