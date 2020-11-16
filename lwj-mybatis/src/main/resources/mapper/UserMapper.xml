@@ -3,7 +3,13 @@
         PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
         "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
 <mapper namespace="com.lwj.mybatis.mapper.UserMapper">
+    <!-- 开启二级缓存 -->
     <select id="selectUser" resultType="com.lwj.mybatis.entity.User">
     select * from user where id = #{id}
   </select>
+
+    <select id="selectAll" resultType="com.lwj.mybatis.entity.User">
+    select * from user
+  </select>
+    <cache/>
 </mapper>

@@ -1,14 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="Encoding" addBOMForNewFiles="with NO BOM">
+  <component name="Encoding">
     <file url="file://$PROJECT_DIR$" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/lwj-io" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/lwj-io/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/lwj-jdbctemplate" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/lwj-jdbctemplate/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/lwj-lock" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/lwj-lock/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/lwj-mybatis" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/lwj-mybatis/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/lwj-patterns" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/lwj-patterns/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/lwj-springmvc" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/lwj-springmvc/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/lwj-test" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/lwj-test/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/lwj-zookeeper" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/lwj-zookeeper/src/main/java" charset="UTF-8" />
   </component>
 </project>
