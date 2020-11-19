@@ -1,4 +1,4 @@
-package com.lwj.lock.demo;
+package com.lwj.thread.lock;
 
 import java.util.concurrent.locks.LockSupport;
 
