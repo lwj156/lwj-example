@@ -9,9 +9,9 @@
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
     <groupId>com.lwj</groupId>
-    <artifactId>lock</artifactId>
+    <artifactId>thread</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>Lwjlock</name>
+    <name>Lwjthread</name>
     <description>Demo project for Spring Boot</description>
 
     <properties>

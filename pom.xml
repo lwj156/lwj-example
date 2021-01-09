@@ -12,6 +12,7 @@
         <module>lwj-springmvc</module>
         <module>lwj-io</module>
         <module>lwj-zookeeper</module>
+        <module>lwj-algorithm</module>
     </modules>
 
     <parent>
