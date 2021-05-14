@@ -10,7 +10,9 @@ import java.util.concurrent.TimeUnit;
  */
 public class SemaphoreDemo {
     public static void main(String[] args) {
-        Semaphore semaphore=new Semaphore(2);
+        Semaphore semaphore=new Semaphore(0);
+
+        semaphore.release();
 
         for (int i = 0; i < 10; i++) {
             new Thread(()->{

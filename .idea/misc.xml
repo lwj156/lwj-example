@@ -16,6 +16,7 @@
         <option value="$PROJECT_DIR$/lwj-mybatis/pom.xml" />
         <option value="$PROJECT_DIR$/lwj-lock/pom.xml" />
         <option value="$PROJECT_DIR$/lwj-test/pom.xml" />
+        <option value="$PROJECT_DIR$/lwj-thread/pom.xml" />
       </list>
     </option>
   </component>

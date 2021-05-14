@@ -10,27 +10,27 @@
         <module name="lwj-test" />
         <module name="lwj-jdbctemplate" />
         <module name="lwj-zookeeper" />
-        <module name="lwj-patterns" />
+        <module name="lwj-thread" />
+        <module name="lwj-algorithm" />
         <module name="lwj-mybatis" />
         <module name="lwj-springmvc" />
-        <module name="lwj-lock" />
-        <module name="zookeeper" />
+        <module name="lwj-patterns" />
         <module name="lwj-io" />
       </profile>
     </annotationProcessing>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="lwj-algorithm" options="" />
       <module name="lwj-example" options="-parameters" />
       <module name="lwj-io" options="-parameters" />
       <module name="lwj-jdbctemplate" options="-parameters" />
-      <module name="lwj-lock" options="-parameters" />
       <module name="lwj-mybatis" options="-parameters" />
       <module name="lwj-patterns" options="-parameters" />
       <module name="lwj-springmvc" options="-parameters" />
       <module name="lwj-test" options="-parameters" />
+      <module name="lwj-thread" options="-parameters" />
       <module name="lwj-zookeeper" options="-parameters" />
-      <module name="zookeeper" options="-parameters" />
     </option>
   </component>
 </project>

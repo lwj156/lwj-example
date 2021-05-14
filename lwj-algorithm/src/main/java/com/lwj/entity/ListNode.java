@@ -8,7 +8,10 @@ package com.lwj.entity;
 public class ListNode {
     int val;
     ListNode next;
-    ListNode(int x) { val = x; }
+    public ListNode(int x, ListNode listNode) {
+        next = listNode;
+        val = x;
+    }
 
     public int getVal() {
         return val;
